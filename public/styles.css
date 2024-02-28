@@ -1,0 +1,49 @@
+html, body {
+    background-color: darkgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.form__pdf-upload {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.pdf-form__input__container {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-form__input {
+    height: 3rem;
+    width: 12rem;
+
+    margin-bottom: 2rem;
+}
+
+.pdf-form__submit {
+    grid-column: span 12;
+    margin: 0 auto;
+    padding: 0;
+    
+    height: 2rem;
+    width: 12rem;
+
+    font-weight: bold;
+    font-size:large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

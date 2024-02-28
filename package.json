@@ -1,0 +1,23 @@
+{
+  "name": "pdfcombiner-frontend",
+  "version": "1.0.0",
+  "description": "dev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanWuGit/pdfcombiner-frontend.git"
+  },
+  "author": "yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanWuGit/pdfcombiner-frontend/issues"
+  },
+  "homepage": "https://github.com/YanWuGit/pdfcombiner-frontend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
