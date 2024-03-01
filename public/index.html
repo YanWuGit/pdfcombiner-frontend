@@ -17,20 +17,23 @@
         class="form__pdf-upload pdf-form"
         id="pdf-upload-form"
         action="/mergepdf"
-        method="post"
+        method="POST"
         enctype="multipart/form-data"
       >
-        <div class="pdf-form__input__container">
-          <input
-            class="pdf-form__input"
-            type="file"
-            id="pdf-files"
-            name="pdf-files"
-            accept="application/pdf"
-            multiple
-          />
-          <ul id="file-list" class="file-list"></ul>
-        </div>
+        <input
+          class="pdf-form__input"
+          type="file"
+          id="pdf-files"
+          name="pdf-files"
+          accept="application/pdf"
+          multiple
+        />
+        <h3 class="file-list__title">Selected Files:</h3>
+        <ul id="file-list" class="file-list">
+          <li>No files selected.</li>
+        </ul>
+        <span class="pdf-form__error__no-pdf"></span>
+
         <button class="pdf-form__submit" type="submit">Upload & Merge</button>
       </form>
     </main>
