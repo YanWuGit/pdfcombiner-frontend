@@ -1,5 +1,10 @@
 html, body {
-    background-color: darkgray;
+    background-color: #BFD1E5;
+}
+
+h1, ul {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
